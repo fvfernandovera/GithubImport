@@ -1,0 +1,2312 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GithubImport
+</name>
+</assembly>
+<members>
+<member name="M:GithubImport.BPIWebService.BPI.Models.TranslatorQuerySingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new TranslatorQuerySingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslatorQuerySingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new TranslatorQuerySingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslatorQuerySingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.TranslatorQuery})">
+	<summary>
+ Initialize a new TranslatorQuerySingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.TranslatorQuerySingle">
+	<summary>
+There are no comments for TranslatorQuerySingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslatorQuery.CreateTranslatorQuery(System.Int32)">
+	<summary>
+Create a new TranslatorQuery object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TranslatorQuery.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TranslatorQuery.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TranslatorQuery.Description">
+	<summary>
+There are no comments for Property Description in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.TranslatorQuery.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslatorQuery.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.TranslatorQuery">
+	<summary>
+There are no comments for TranslatorQuery in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.BugSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new BugSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.BugSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new BugSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.BugSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.Bug})">
+	<summary>
+ Initialize a new BugSingle object.
+ </summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.BugSingle.BugAttachment">
+	<summary>
+There are no comments for BugAttachment in the schema.
+</summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.BugSingle">
+	<summary>
+There are no comments for BugSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.Bug.CreateBug(System.Int32)">
+	<summary>
+Create a new Bug object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.TfsID">
+	<summary>
+There are no comments for Property TfsID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.ExternalSourceStr">
+	<summary>
+There are no comments for Property ExternalSourceStr in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.ExternalSourceStrTP">
+	<summary>
+There are no comments for Property ExternalSourceStrTP in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.Title">
+	<summary>
+There are no comments for Property Title in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.ExtendedDescription">
+	<summary>
+There are no comments for Property ExtendedDescription in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.Product">
+	<summary>
+There are no comments for Property Product in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.AutoCreated">
+	<summary>
+There are no comments for Property AutoCreated in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.Blocked">
+	<summary>
+There are no comments for Property Blocked in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.BlockedReason">
+	<summary>
+There are no comments for Property BlockedReason in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.IntCurrentState">
+	<summary>
+There are no comments for Property IntCurrentState in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.CustomerSeverity">
+	<summary>
+There are no comments for Property CustomerSeverity in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.CustomerPriority">
+	<summary>
+There are no comments for Property CustomerPriority in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.IterationPath">
+	<summary>
+There are no comments for Property IterationPath in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.ExternalCreatedBy">
+	<summary>
+There are no comments for Property ExternalCreatedBy in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.ExternalResolution">
+	<summary>
+There are no comments for Property ExternalResolution in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.TSExternalResolved">
+	<summary>
+There are no comments for Property TSExternalResolved in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.TSReactivated">
+	<summary>
+There are no comments for Property TSReactivated in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.TFSAssignedTo">
+	<summary>
+There are no comments for Property TFSAssignedTo in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.DateCreated">
+	<summary>
+There are no comments for Property DateCreated in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.CustomerDeadLine">
+	<summary>
+There are no comments for Property CustomerDeadLine in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.InternalDeadLine">
+	<summary>
+There are no comments for Property InternalDeadLine in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.TSSync">
+	<summary>
+There are no comments for Property TSSync in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.TFSCurrentState">
+	<summary>
+There are no comments for Property TFSCurrentState in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.BugState">
+	<summary>
+There are no comments for Property BugState in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.ReproSteps">
+	<summary>
+There are no comments for Property ReproSteps in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.ExternalHistory">
+	<summary>
+There are no comments for Property ExternalHistory in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.ExternalImages">
+	<summary>
+There are no comments for Property ExternalImages in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.Reactivated">
+	<summary>
+There are no comments for Property Reactivated in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Bug.BugAttachment">
+	<summary>
+There are no comments for Property BugAttachment in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.Bug.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.Bug.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.Bug">
+	<summary>
+There are no comments for Bug in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.BugAttachmentSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new BugAttachmentSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.BugAttachmentSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new BugAttachmentSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.BugAttachmentSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.BugAttachment})">
+	<summary>
+ Initialize a new BugAttachmentSingle object.
+ </summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.BugAttachmentSingle.Bug">
+	<summary>
+There are no comments for Bug in the schema.
+</summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.BugAttachmentSingle">
+	<summary>
+There are no comments for BugAttachmentSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.BugAttachment.CreateBugAttachment(System.Int32)">
+	<summary>
+Create a new BugAttachment object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.BugAttachment.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.BugAttachment.Bug_OID">
+	<summary>
+There are no comments for Property Bug_OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.BugAttachment.Data">
+	<summary>
+There are no comments for Property Data in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.BugAttachment.Type">
+	<summary>
+There are no comments for Property Type in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.BugAttachment.FullFilePath">
+	<summary>
+There are no comments for Property FullFilePath in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.BugAttachment.FullFileName">
+	<summary>
+There are no comments for Property FullFileName in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.BugAttachment.Bug">
+	<summary>
+There are no comments for Property Bug in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.BugAttachment.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.BugAttachment.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.BugAttachment">
+	<summary>
+There are no comments for BugAttachment in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ProductSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new ProductSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ProductSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new ProductSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ProductSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.Product})">
+	<summary>
+ Initialize a new ProductSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ProductSingle">
+	<summary>
+There are no comments for ProductSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.Product.CreateProduct(System.Int32)">
+	<summary>
+Create a new Product object.
+</summary>
+	<param name="oid">Initial value of Oid.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Product.Oid">
+	<summary>
+There are no comments for Property Oid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Product.ProductName">
+	<summary>
+There are no comments for Property ProductName in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Product.Aliases">
+	<summary>
+There are no comments for Property Aliases in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Product.ExtendedAliases">
+	<summary>
+There are no comments for Property ExtendedAliases in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.Product.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.Product.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.Product">
+	<summary>
+There are no comments for Product in the schema.
+</summary>
+	<KeyProperties>
+Oid
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.LanguageSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new LanguageSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.LanguageSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new LanguageSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.LanguageSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.Language})">
+	<summary>
+ Initialize a new LanguageSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.LanguageSingle">
+	<summary>
+There are no comments for LanguageSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.Language.CreateLanguage(System.Int32)">
+	<summary>
+Create a new Language object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Language.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Language.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Language.Description">
+	<summary>
+There are no comments for Property Description in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Language.Bcp47">
+	<summary>
+There are no comments for Property Bcp47 in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Language.LCID">
+	<summary>
+There are no comments for Property LCID in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.Language.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.Language.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.Language">
+	<summary>
+There are no comments for Language in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.PersonSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new PersonSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.PersonSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new PersonSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.PersonSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.Person})">
+	<summary>
+ Initialize a new PersonSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.PersonSingle">
+	<summary>
+There are no comments for PersonSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.Person.CreatePerson(System.Int32)">
+	<summary>
+Create a new Person object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Person.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Person.FullName">
+	<summary>
+There are no comments for Property FullName in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.Person.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.Person.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.Person">
+	<summary>
+There are no comments for Person in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TFSBugSourceSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new TFSBugSourceSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TFSBugSourceSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new TFSBugSourceSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TFSBugSourceSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.TFSBugSource})">
+	<summary>
+ Initialize a new TFSBugSourceSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.TFSBugSourceSingle">
+	<summary>
+There are no comments for TFSBugSourceSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TFSBugSource.CreateTFSBugSource(System.Int32)">
+	<summary>
+Create a new TFSBugSource object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSource.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSource.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSource.Branch">
+	<summary>
+There are no comments for Property Branch in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSource.Server">
+	<summary>
+There are no comments for Property Server in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSource.TeamProject">
+	<summary>
+There are no comments for Property TeamProject in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSource.Query">
+	<summary>
+There are no comments for Property Query in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSource.ForceProduct">
+	<summary>
+There are no comments for Property ForceProduct in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSource.Online">
+	<summary>
+There are no comments for Property Online in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.TFSBugSource.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TFSBugSource.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.TFSBugSource">
+	<summary>
+There are no comments for TFSBugSource in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TFSBugSyncSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new TFSBugSyncSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TFSBugSyncSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new TFSBugSyncSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TFSBugSyncSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.TFSBugSync})">
+	<summary>
+ Initialize a new TFSBugSyncSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.TFSBugSyncSingle">
+	<summary>
+There are no comments for TFSBugSyncSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TFSBugSync.CreateTFSBugSync(System.Int32)">
+	<summary>
+Create a new TFSBugSync object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSync.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSync.Source">
+	<summary>
+There are no comments for Property Source in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSync.Type">
+	<summary>
+There are no comments for Property Type in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSync.TSSync">
+	<summary>
+There are no comments for Property TSSync in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSync.BugsQty">
+	<summary>
+There are no comments for Property BugsQty in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSync.NewBugsQty">
+	<summary>
+There are no comments for Property NewBugsQty in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TFSBugSync.ResolvedBugsQty">
+	<summary>
+There are no comments for Property ResolvedBugsQty in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.TFSBugSync.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TFSBugSync.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.TFSBugSync">
+	<summary>
+There are no comments for TFSBugSync in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriodSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new WeeklyInvoicingPeriodSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriodSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new WeeklyInvoicingPeriodSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriodSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod})">
+	<summary>
+ Initialize a new WeeklyInvoicingPeriodSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriodSingle">
+	<summary>
+There are no comments for WeeklyInvoicingPeriodSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod.CreateWeeklyInvoicingPeriod(System.Int32)">
+	<summary>
+Create a new WeeklyInvoicingPeriod object.
+</summary>
+	<param name="oid">Initial value of Oid.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod.Oid">
+	<summary>
+There are no comments for Property Oid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod.DateFrom">
+	<summary>
+There are no comments for Property DateFrom in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod.DateTo">
+	<summary>
+There are no comments for Property DateTo in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod.InvoicingPeriodOid">
+	<summary>
+There are no comments for Property InvoicingPeriodOid in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod">
+	<summary>
+There are no comments for WeeklyInvoicingPeriod in the schema.
+</summary>
+	<KeyProperties>
+Oid
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRowSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new ReleaseTrackerRowSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRowSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new ReleaseTrackerRowSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRowSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow})">
+	<summary>
+ Initialize a new ReleaseTrackerRowSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRowSingle">
+	<summary>
+There are no comments for ReleaseTrackerRowSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.CreateReleaseTrackerRow(System.Int32)">
+	<summary>
+Create a new ReleaseTrackerRow object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.ComponentID">
+	<summary>
+There are no comments for Property ComponentID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.MSFTPM">
+	<summary>
+There are no comments for Property MSFTPM in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.Pillar">
+	<summary>
+There are no comments for Property Pillar in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.Pto">
+	<summary>
+There are no comments for Property Pto in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.ProductOrServiceName">
+	<summary>
+There are no comments for Property ProductOrServiceName in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.Components">
+	<summary>
+There are no comments for Property Components in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.IPMNotes">
+	<summary>
+There are no comments for Property IPMNotes in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.ContentType">
+	<summary>
+There are no comments for Property ContentType in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.Pri">
+	<summary>
+There are no comments for Property Pri in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.ToDoInQ1">
+	<summary>
+There are no comments for Property ToDoInQ1 in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.TotalNumberOfLanguages">
+	<summary>
+There are no comments for Property TotalNumberOfLanguages in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.IO">
+	<summary>
+There are no comments for Property IO in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.PO">
+	<summary>
+There are no comments for Property PO in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.MorNAVID">
+	<summary>
+There are no comments for Property MorNAVID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.VendorPM">
+	<summary>
+There are no comments for Property VendorPM in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.TranslationHub">
+	<summary>
+There are no comments for Property TranslationHub in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.EOLComments">
+	<summary>
+There are no comments for Property EOLComments in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.UnlockDocset">
+	<summary>
+There are no comments for Property UnlockDocset in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.ArtLoc">
+	<summary>
+There are no comments for Property ArtLoc in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow">
+	<summary>
+There are no comments for ReleaseTrackerRow in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSetSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new TranslationSellingRateSetSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSetSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new TranslationSellingRateSetSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSetSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSet})">
+	<summary>
+ Initialize a new TranslationSellingRateSetSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSetSingle">
+	<summary>
+There are no comments for TranslationSellingRateSetSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSet.CreateTranslationSellingRateSet(System.Int32)">
+	<summary>
+Create a new TranslationSellingRateSet object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSet.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSet.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSet.IsActive">
+	<summary>
+There are no comments for Property IsActive in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSet.IsDefault">
+	<summary>
+There are no comments for Property IsDefault in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSet.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSet.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSet">
+	<summary>
+There are no comments for TranslationSellingRateSet in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new TranslationSellingRateSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new TranslationSellingRateSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.TranslationSellingRate})">
+	<summary>
+ Initialize a new TranslationSellingRateSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSingle">
+	<summary>
+There are no comments for TranslationSellingRateSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslationSellingRate.CreateTranslationSellingRate(System.Int32)">
+	<summary>
+Create a new TranslationSellingRate object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TranslationSellingRate.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TranslationSellingRate.LanguageOid">
+	<summary>
+There are no comments for Property LanguageOid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TranslationSellingRate.RateSetOid">
+	<summary>
+There are no comments for Property RateSetOid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TranslationSellingRate.RateTradosNoMatch">
+	<summary>
+There are no comments for Property RateTradosNoMatch in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.TranslationSellingRate.RateLinguisticHour">
+	<summary>
+There are no comments for Property RateLinguisticHour in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.TranslationSellingRate.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.TranslationSellingRate.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.TranslationSellingRate">
+	<summary>
+There are no comments for TranslationSellingRate in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ProjectTypeSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new ProjectTypeSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ProjectTypeSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new ProjectTypeSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ProjectTypeSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.ProjectType})">
+	<summary>
+ Initialize a new ProjectTypeSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ProjectTypeSingle">
+	<summary>
+There are no comments for ProjectTypeSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ProjectType.CreateProjectType(System.Int32)">
+	<summary>
+Create a new ProjectType object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ProjectType.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ProjectType.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.ProjectType.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ProjectType.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ProjectType">
+	<summary>
+There are no comments for ProjectType in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLineSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new CustomerInvoicingPublishedProjectLineSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLineSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new CustomerInvoicingPublishedProjectLineSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLineSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine})">
+	<summary>
+ Initialize a new CustomerInvoicingPublishedProjectLineSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLineSingle">
+	<summary>
+There are no comments for CustomerInvoicingPublishedProjectLineSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.CreateCustomerInvoicingPublishedProjectLine(System.Int32)">
+	<summary>
+Create a new CustomerInvoicingPublishedProjectLine object.
+</summary>
+	<param name="ID">Initial value of Id.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.Id">
+	<summary>
+There are no comments for Property Id in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WWC">
+	<summary>
+There are no comments for Property WWC in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WCNoMatch">
+	<summary>
+There are no comments for Property WCNoMatch in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WC5074percent">
+	<summary>
+There are no comments for Property WC5074percent in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WC7584percent">
+	<summary>
+There are no comments for Property WC7584percent in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WC8594percent">
+	<summary>
+There are no comments for Property WC8594percent in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WCContext">
+	<summary>
+There are no comments for Property WCContext in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WCReps">
+	<summary>
+There are no comments for Property WCReps in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WC100percent">
+	<summary>
+There are no comments for Property WC100percent in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WC9599percent">
+	<summary>
+There are no comments for Property WC9599percent in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WCNew">
+	<summary>
+There are no comments for Property WCNew in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WCUpdated">
+	<summary>
+There are no comments for Property WCUpdated in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WCAutotranslated">
+	<summary>
+There are no comments for Property WCAutotranslated in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.QttyAudioOnlyMinutes">
+	<summary>
+There are no comments for Property QttyAudioOnlyMinutes in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.QttyDTPPagesUnits">
+	<summary>
+There are no comments for Property QttyDTPPagesUnits in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.QttyImagesUnits">
+	<summary>
+There are no comments for Property QttyImagesUnits in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.QttyFullVideoMinutes">
+	<summary>
+There are no comments for Property QttyFullVideoMinutes in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.QttySubtitulesOnlyMinutes">
+	<summary>
+There are no comments for Property QttySubtitulesOnlyMinutes in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.QtyLingHours">
+	<summary>
+There are no comments for Property QtyLingHours in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.QttyEngineeringHours">
+	<summary>
+There are no comments for Property QttyEngineeringHours in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.CustomerProjectName">
+	<summary>
+There are no comments for Property CustomerProjectName in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.NavisionID">
+	<summary>
+There are no comments for Property NavisionID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.LanguageOid">
+	<summary>
+There are no comments for Property LanguageOid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalDTPPages">
+	<summary>
+There are no comments for Property TotalDTPPages in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalAudioOnly">
+	<summary>
+There are no comments for Property TotalAudioOnly in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalEngHours">
+	<summary>
+There are no comments for Property TotalEngHours in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalSubtitleOnly">
+	<summary>
+There are no comments for Property TotalSubtitleOnly in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalLingHours">
+	<summary>
+There are no comments for Property TotalLingHours in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalImages">
+	<summary>
+There are no comments for Property TotalImages in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalFullVideo">
+	<summary>
+There are no comments for Property TotalFullVideo in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalReps">
+	<summary>
+There are no comments for Property TotalReps in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalNoMatch">
+	<summary>
+There are no comments for Property TotalNoMatch in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.Total5074p">
+	<summary>
+There are no comments for Property Total5074p in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.Total7594p">
+	<summary>
+There are no comments for Property Total7594p in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.Total8594p">
+	<summary>
+There are no comments for Property Total8594p in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.Total9599p">
+	<summary>
+There are no comments for Property Total9599p in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.Total100p">
+	<summary>
+There are no comments for Property Total100p in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalContext">
+	<summary>
+There are no comments for Property TotalContext in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalNew">
+	<summary>
+There are no comments for Property TotalNew in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalUpdated">
+	<summary>
+There are no comments for Property TotalUpdated in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalAutotranslated">
+	<summary>
+There are no comments for Property TotalAutotranslated in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.InvoicingStatus">
+	<summary>
+There are no comments for Property InvoicingStatus in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.CustomerSidePMName">
+	<summary>
+There are no comments for Property CustomerSidePMName in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.MoraviaPMName">
+	<summary>
+There are no comments for Property MoraviaPMName in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.Review100percent">
+	<summary>
+There are no comments for Property Review100percent in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.MTPE">
+	<summary>
+There are no comments for Property MTPE in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TechnicalCompliant">
+	<summary>
+There are no comments for Property TechnicalCompliant in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.RawMT">
+	<summary>
+There are no comments for Property RawMT in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TranslationSellingRateSetOid">
+	<summary>
+There are no comments for Property TranslationSellingRateSetOid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.ArtAndMMSellingRateSetOid">
+	<summary>
+There are no comments for Property ArtAndMMSellingRateSetOid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.ManagedServiceSellingRateSetOid">
+	<summary>
+There are no comments for Property ManagedServiceSellingRateSetOid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.WeeklyInvoicingPeriod">
+	<summary>
+There are no comments for Property WeeklyInvoicingPeriod in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.ReleaseTrackerRow">
+	<summary>
+There are no comments for Property ReleaseTrackerRow in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.SubtenantName">
+	<summary>
+There are no comments for Property SubtenantName in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.ProjectTypeOid">
+	<summary>
+There are no comments for Property ProjectTypeOid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.LocationOid">
+	<summary>
+There are no comments for Property LocationOid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.BaseTotal">
+	<summary>
+There are no comments for Property BaseTotal in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalPMFee">
+	<summary>
+There are no comments for Property TotalPMFee in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalWithPMFee">
+	<summary>
+There are no comments for Property TotalWithPMFee in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalDiscount">
+	<summary>
+There are no comments for Property TotalDiscount in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.TotalToInvoice">
+	<summary>
+There are no comments for Property TotalToInvoice in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine">
+	<summary>
+There are no comments for CustomerInvoicingPublishedProjectLine in the schema.
+</summary>
+	<KeyProperties>
+Id
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.LocationSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new LocationSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.LocationSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new LocationSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.LocationSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.Location})">
+	<summary>
+ Initialize a new LocationSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.LocationSingle">
+	<summary>
+There are no comments for LocationSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.Location.CreateLocation(System.Int32)">
+	<summary>
+Create a new Location object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Location.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Location.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.Location.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.Location.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.Location">
+	<summary>
+There are no comments for Location in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.PersonsExternalViewSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new PersonsExternalViewSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.PersonsExternalViewSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new PersonsExternalViewSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.PersonsExternalViewSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.PersonsExternalView})">
+	<summary>
+ Initialize a new PersonsExternalViewSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.PersonsExternalViewSingle">
+	<summary>
+There are no comments for PersonsExternalViewSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.PersonsExternalView.CreatePersonsExternalView(System.Int32)">
+	<summary>
+Create a new PersonsExternalView object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.PersonsExternalView.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.PersonsExternalView.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.PersonsExternalView.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.PersonsExternalView.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.PersonsExternalView">
+	<summary>
+There are no comments for PersonsExternalView in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new ArtAndMMSellingRateSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new ArtAndMMSellingRateSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRate})">
+	<summary>
+ Initialize a new ArtAndMMSellingRateSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSingle">
+	<summary>
+There are no comments for ArtAndMMSellingRateSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRate.CreateArtAndMMSellingRate(System.Int32)">
+	<summary>
+Create a new ArtAndMMSellingRate object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRate.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRate.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRate.UsdRate">
+	<summary>
+There are no comments for Property UsdRate in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRate.RateSetOid">
+	<summary>
+There are no comments for Property RateSetOid in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRate.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRate.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRate">
+	<summary>
+There are no comments for ArtAndMMSellingRate in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSetSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new ArtAndMMSellingRateSetSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSetSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new ArtAndMMSellingRateSetSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSetSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSet})">
+	<summary>
+ Initialize a new ArtAndMMSellingRateSetSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSetSingle">
+	<summary>
+There are no comments for ArtAndMMSellingRateSetSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSet.CreateArtAndMMSellingRateSet(System.Int32,System.Boolean,System.Boolean)">
+	<summary>
+Create a new ArtAndMMSellingRateSet object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+	<param name="active">Initial value of Active.</param>
+	<param name="isDefault">Initial value of IsDefault.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSet.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSet.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSet.Active">
+	<summary>
+There are no comments for Property Active in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSet.IsDefault">
+	<summary>
+There are no comments for Property IsDefault in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSet.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSet.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSet">
+	<summary>
+There are no comments for ArtAndMMSellingRateSet in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoViewSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new SubTenantInvoicingInfoViewSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoViewSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new SubTenantInvoicingInfoViewSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoViewSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView})">
+	<summary>
+ Initialize a new SubTenantInvoicingInfoViewSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoViewSingle">
+	<summary>
+There are no comments for SubTenantInvoicingInfoViewSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView.CreateSubTenantInvoicingInfoView(System.Int32)">
+	<summary>
+Create a new SubTenantInvoicingInfoView object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView.SubtenantName">
+	<summary>
+There are no comments for Property SubtenantName in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView.ProductName">
+	<summary>
+There are no comments for Property ProductName in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView.MsPmName">
+	<summary>
+There are no comments for Property MsPmName in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView.PersonOid">
+	<summary>
+There are no comments for Property PersonOid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView.Io">
+	<summary>
+There are no comments for Property Io in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView">
+	<summary>
+There are no comments for SubTenantInvoicingInfoView in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSetSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new ManagedserviceSellingRateSetSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSetSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new ManagedserviceSellingRateSetSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSetSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSet})">
+	<summary>
+ Initialize a new ManagedserviceSellingRateSetSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSetSingle">
+	<summary>
+There are no comments for ManagedserviceSellingRateSetSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSet.CreateManagedserviceSellingRateSet(System.Int32,System.Boolean,System.Boolean)">
+	<summary>
+Create a new ManagedserviceSellingRateSet object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+	<param name="active">Initial value of Active.</param>
+	<param name="isDefault">Initial value of IsDefault.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSet.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSet.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSet.Active">
+	<summary>
+There are no comments for Property Active in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSet.IsDefault">
+	<summary>
+There are no comments for Property IsDefault in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSet.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSet.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSet">
+	<summary>
+There are no comments for ManagedserviceSellingRateSet in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRateSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new ManagedServiceSellingRateSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRateSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new ManagedServiceSellingRateSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRateSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate})">
+	<summary>
+ Initialize a new ManagedServiceSellingRateSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRateSingle">
+	<summary>
+There are no comments for ManagedServiceSellingRateSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate.CreateManagedServiceSellingRate(System.Int32)">
+	<summary>
+Create a new ManagedServiceSellingRate object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate.UsdRate">
+	<summary>
+There are no comments for Property UsdRate in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate.RateSetOid">
+	<summary>
+There are no comments for Property RateSetOid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate.RoleOid">
+	<summary>
+There are no comments for Property RoleOid in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate.LocationOid">
+	<summary>
+There are no comments for Property LocationOid in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate">
+	<summary>
+There are no comments for ManagedServiceSellingRate in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.HolidaySingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new HolidaySingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.HolidaySingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new HolidaySingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.HolidaySingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.Holiday})">
+	<summary>
+ Initialize a new HolidaySingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.HolidaySingle">
+	<summary>
+There are no comments for HolidaySingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.Holiday.CreateHoliday(System.Int32)">
+	<summary>
+Create a new Holiday object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Holiday.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Holiday.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.Holiday.Day">
+	<summary>
+There are no comments for Property Day in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.Holiday.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.Holiday.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.Holiday">
+	<summary>
+There are no comments for Holiday in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.SRSuggestionSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new SRSuggestionSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.SRSuggestionSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new SRSuggestionSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.SRSuggestionSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.BPI.Models.SRSuggestion})">
+	<summary>
+ Initialize a new SRSuggestionSingle object.
+ </summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestionSingle.Language">
+	<summary>
+There are no comments for Language in the schema.
+</summary>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.SRSuggestionSingle">
+	<summary>
+There are no comments for SRSuggestionSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.SRSuggestion.CreateSRSuggestion(System.Int32)">
+	<summary>
+Create a new SRSuggestion object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.ExternalID">
+	<summary>
+There are no comments for Property ExternalID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.Title">
+	<summary>
+There are no comments for Property Title in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.Language_OID">
+	<summary>
+There are no comments for Property Language_OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.ExtLanguage">
+	<summary>
+There are no comments for Property ExtLanguage in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.TSCreated">
+	<summary>
+There are no comments for Property TSCreated in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.ExtCreatedBy">
+	<summary>
+There are no comments for Property ExtCreatedBy in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.AssignedTo">
+	<summary>
+There are no comments for Property AssignedTo in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.LMDL">
+	<summary>
+There are no comments for Property LMDL in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.PublishingDL">
+	<summary>
+There are no comments for Property PublishingDL in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.Status">
+	<summary>
+There are no comments for Property Status in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.ExtAssignedTo">
+	<summary>
+There are no comments for Property ExtAssignedTo in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.ExtStatus">
+	<summary>
+There are no comments for Property ExtStatus in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.Url">
+	<summary>
+There are no comments for Property Url in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.Approved">
+	<summary>
+There are no comments for Property Approved in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.SourceText">
+	<summary>
+There are no comments for Property SourceText in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.CurrentTranslation">
+	<summary>
+There are no comments for Property CurrentTranslation in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.SuggestedTranslation">
+	<summary>
+There are no comments for Property SuggestedTranslation in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.LMFeedback">
+	<summary>
+There are no comments for Property LMFeedback in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.BPI.Models.SRSuggestion.Language">
+	<summary>
+There are no comments for Property Language in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.BPI.Models.SRSuggestion.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.SRSuggestion.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.SRSuggestion">
+	<summary>
+There are no comments for SRSuggestion in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.TranslatorQuery},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.TranslatorQuery as BPIWebService.BPI.Models.TranslatorQuerySingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.TranslatorQuery},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.TranslatorQuery as BPIWebService.BPI.Models.TranslatorQuerySingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.Bug},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.Bug as BPIWebService.BPI.Models.BugSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.Bug},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.Bug as BPIWebService.BPI.Models.BugSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.BugAttachment},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.BugAttachment as BPIWebService.BPI.Models.BugAttachmentSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.BugAttachment},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.BugAttachment as BPIWebService.BPI.Models.BugAttachmentSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.Product},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.Product as BPIWebService.BPI.Models.ProductSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.Product},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.Product as BPIWebService.BPI.Models.ProductSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oid">The value of oid</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.Language},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.Language as BPIWebService.BPI.Models.LanguageSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.Language},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.Language as BPIWebService.BPI.Models.LanguageSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.Person},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.Person as BPIWebService.BPI.Models.PersonSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.Person},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.Person as BPIWebService.BPI.Models.PersonSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.TFSBugSource},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.TFSBugSource as BPIWebService.BPI.Models.TFSBugSourceSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.TFSBugSource},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.TFSBugSource as BPIWebService.BPI.Models.TFSBugSourceSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.TFSBugSync},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.TFSBugSync as BPIWebService.BPI.Models.TFSBugSyncSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.TFSBugSync},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.TFSBugSync as BPIWebService.BPI.Models.TFSBugSyncSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.WeeklyInvoicingPeriod as BPIWebService.BPI.Models.WeeklyInvoicingPeriodSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.WeeklyInvoicingPeriod as BPIWebService.BPI.Models.WeeklyInvoicingPeriodSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oid">The value of oid</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.ReleaseTrackerRow as BPIWebService.BPI.Models.ReleaseTrackerRowSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.ReleaseTrackerRow as BPIWebService.BPI.Models.ReleaseTrackerRowSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSet},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.TranslationSellingRateSet as BPIWebService.BPI.Models.TranslationSellingRateSetSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSet},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.TranslationSellingRateSet as BPIWebService.BPI.Models.TranslationSellingRateSetSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.TranslationSellingRate},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.TranslationSellingRate as BPIWebService.BPI.Models.TranslationSellingRateSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.TranslationSellingRate},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.TranslationSellingRate as BPIWebService.BPI.Models.TranslationSellingRateSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.ProjectType},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.ProjectType as BPIWebService.BPI.Models.ProjectTypeSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.ProjectType},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.ProjectType as BPIWebService.BPI.Models.ProjectTypeSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine as BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLineSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine as BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLineSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="id">The value of id</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.Location},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.Location as BPIWebService.BPI.Models.LocationSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.Location},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.Location as BPIWebService.BPI.Models.LocationSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.PersonsExternalView},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.PersonsExternalView as BPIWebService.BPI.Models.PersonsExternalViewSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.PersonsExternalView},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.PersonsExternalView as BPIWebService.BPI.Models.PersonsExternalViewSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRate},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.ArtAndMMSellingRate as BPIWebService.BPI.Models.ArtAndMMSellingRateSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRate},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.ArtAndMMSellingRate as BPIWebService.BPI.Models.ArtAndMMSellingRateSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSet},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.ArtAndMMSellingRateSet as BPIWebService.BPI.Models.ArtAndMMSellingRateSetSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSet},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.ArtAndMMSellingRateSet as BPIWebService.BPI.Models.ArtAndMMSellingRateSetSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.SubTenantInvoicingInfoView as BPIWebService.BPI.Models.SubTenantInvoicingInfoViewSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.SubTenantInvoicingInfoView as BPIWebService.BPI.Models.SubTenantInvoicingInfoViewSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSet},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.ManagedserviceSellingRateSet as BPIWebService.BPI.Models.ManagedserviceSellingRateSetSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSet},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.ManagedserviceSellingRateSet as BPIWebService.BPI.Models.ManagedserviceSellingRateSetSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.ManagedServiceSellingRate as BPIWebService.BPI.Models.ManagedServiceSellingRateSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.ManagedServiceSellingRate as BPIWebService.BPI.Models.ManagedServiceSellingRateSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.Holiday},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.Holiday as BPIWebService.BPI.Models.HolidaySingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.Holiday},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.Holiday as BPIWebService.BPI.Models.HolidaySingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.SRSuggestion},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.SRSuggestion as BPIWebService.BPI.Models.SRSuggestionSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.BPI.Models.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.BPI.Models.SRSuggestion},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.BPI.Models.SRSuggestion as BPIWebService.BPI.Models.SRSuggestionSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="T:GithubImport.BPIWebService.BPI.Models.ExtensionMethods">
+	<summary>
+ Class containing all extension methods
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.InvoicingPeriodSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String)">
+	<summary>
+ Initialize a new InvoicingPeriodSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.InvoicingPeriodSingle.#ctor(Microsoft.OData.Client.DataServiceContext,System.String,System.Boolean)">
+	<summary>
+ Initialize a new InvoicingPeriodSingle object.
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.InvoicingPeriodSingle.#ctor(Microsoft.OData.Client.DataServiceQuerySingle{GithubImport.BPIWebService.InvoicingPeriod})">
+	<summary>
+ Initialize a new InvoicingPeriodSingle object.
+ </summary>
+</member><member name="T:GithubImport.BPIWebService.InvoicingPeriodSingle">
+	<summary>
+There are no comments for InvoicingPeriodSingle in the schema.
+</summary>
+</member><member name="M:GithubImport.BPIWebService.InvoicingPeriod.CreateInvoicingPeriod(System.Int32)">
+	<summary>
+Create a new InvoicingPeriod object.
+</summary>
+	<param name="oID">Initial value of OID.</param>
+</member><member name="P:GithubImport.BPIWebService.InvoicingPeriod.OID">
+	<summary>
+There are no comments for Property OID in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.InvoicingPeriod.Name">
+	<summary>
+There are no comments for Property Name in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.InvoicingPeriod.DateFrom">
+	<summary>
+There are no comments for Property DateFrom in the schema.
+</summary>
+</member><member name="P:GithubImport.BPIWebService.InvoicingPeriod.DateTo">
+	<summary>
+There are no comments for Property DateTo in the schema.
+</summary>
+</member><member name="E:GithubImport.BPIWebService.InvoicingPeriod.PropertyChanged">
+	<summary>
+ This event is raised when the value of the property is changed
+ </summary>
+</member><member name="M:GithubImport.BPIWebService.InvoicingPeriod.OnPropertyChanged(System.String)">
+	<summary>
+ The value of the property is changed
+ </summary>
+	<param name="property">property name</param>
+</member><member name="T:GithubImport.BPIWebService.InvoicingPeriod">
+	<summary>
+There are no comments for InvoicingPeriod in the schema.
+</summary>
+	<KeyProperties>
+OID
+</KeyProperties>
+</member><member name="M:GithubImport.BPIWebService.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.InvoicingPeriod},System.Collections.Generic.Dictionary{System.String,System.Object})">
+	<summary>
+ Get an entity of type BPIWebService.InvoicingPeriod as BPIWebService.InvoicingPeriodSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="keys">dictionary with the names and values of keys</param>
+</member><member name="M:GithubImport.BPIWebService.ExtensionMethods.ByKey(Microsoft.OData.Client.DataServiceQuery{GithubImport.BPIWebService.InvoicingPeriod},System.Int32)">
+	<summary>
+ Get an entity of type BPIWebService.InvoicingPeriod as BPIWebService.InvoicingPeriodSingle specified by key from an entity set
+ </summary>
+	<param name="source">source entity set</param>
+	<param name="oID">The value of oID</param>
+</member><member name="T:GithubImport.BPIWebService.ExtensionMethods">
+	<summary>
+ Class containing all extension methods
+ </summary>
+</member><member name="M:GithubImport.Default.Container.#ctor(System.Uri)">
+	<summary>
+Initialize a new Container object.
+</summary>
+</member><member name="M:GithubImport.Default.Container.ResolveTypeFromName(System.String)">
+	<summary>
+Since the namespace configured for this service reference
+in Visual Studio is different from the one indicated in the
+server schema, use type-mappers to map between the two.
+</summary>
+</member><member name="M:GithubImport.Default.Container.ResolveNameFromType(System.Type)">
+	<summary>
+Since the namespace configured for this service reference
+in Visual Studio is different from the one indicated in the
+server schema, use type-mappers to map between the two.
+</summary>
+</member><member name="P:GithubImport.Default.Container.TranslatorQuery">
+	<summary>
+There are no comments for TranslatorQuery in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.Bug">
+	<summary>
+There are no comments for Bug in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.BugAttachment">
+	<summary>
+There are no comments for BugAttachment in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.Product">
+	<summary>
+There are no comments for Product in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.Language">
+	<summary>
+There are no comments for Language in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.Person">
+	<summary>
+There are no comments for Person in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.TFSBugSource">
+	<summary>
+There are no comments for TFSBugSource in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.TFSBugSync">
+	<summary>
+There are no comments for TFSBugSync in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.WeeklyInvoicingPeriod">
+	<summary>
+There are no comments for WeeklyInvoicingPeriod in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.ReleaseTrackerRow">
+	<summary>
+There are no comments for ReleaseTrackerRow in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.TranslationSellingRateSet">
+	<summary>
+There are no comments for TranslationSellingRateSet in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.TranslationSellingRate">
+	<summary>
+There are no comments for TranslationSellingRate in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.ProjectType">
+	<summary>
+There are no comments for ProjectType in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.CustomerInvoicingPublishedProjectLine">
+	<summary>
+There are no comments for CustomerInvoicingPublishedProjectLine in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.Location">
+	<summary>
+There are no comments for Location in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.PersonsExternalView">
+	<summary>
+There are no comments for PersonsExternalView in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.ArtAndMMSellingRate">
+	<summary>
+There are no comments for ArtAndMMSellingRate in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.ArtAndMMSellingRateSet">
+	<summary>
+There are no comments for ArtAndMMSellingRateSet in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.SubtenantInvoicingInfoView">
+	<summary>
+There are no comments for SubtenantInvoicingInfoView in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.ManagedServiceSellingRateSet">
+	<summary>
+There are no comments for ManagedServiceSellingRateSet in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.ManagedServiceSellingRate">
+	<summary>
+There are no comments for ManagedServiceSellingRate in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.InvoicingPeriod">
+	<summary>
+There are no comments for InvoicingPeriod in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.Holiday">
+	<summary>
+There are no comments for Holiday in the schema.
+</summary>
+</member><member name="P:GithubImport.Default.Container.SRSuggestion">
+	<summary>
+There are no comments for SRSuggestion in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToTranslatorQuery(GithubImport.BPIWebService.BPI.Models.TranslatorQuery)">
+	<summary>
+There are no comments for TranslatorQuery in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToBug(GithubImport.BPIWebService.BPI.Models.Bug)">
+	<summary>
+There are no comments for Bug in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToBugAttachment(GithubImport.BPIWebService.BPI.Models.BugAttachment)">
+	<summary>
+There are no comments for BugAttachment in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToProduct(GithubImport.BPIWebService.BPI.Models.Product)">
+	<summary>
+There are no comments for Product in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToLanguage(GithubImport.BPIWebService.BPI.Models.Language)">
+	<summary>
+There are no comments for Language in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToPerson(GithubImport.BPIWebService.BPI.Models.Person)">
+	<summary>
+There are no comments for Person in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToTFSBugSource(GithubImport.BPIWebService.BPI.Models.TFSBugSource)">
+	<summary>
+There are no comments for TFSBugSource in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToTFSBugSync(GithubImport.BPIWebService.BPI.Models.TFSBugSync)">
+	<summary>
+There are no comments for TFSBugSync in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToWeeklyInvoicingPeriod(GithubImport.BPIWebService.BPI.Models.WeeklyInvoicingPeriod)">
+	<summary>
+There are no comments for WeeklyInvoicingPeriod in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToReleaseTrackerRow(GithubImport.BPIWebService.BPI.Models.ReleaseTrackerRow)">
+	<summary>
+There are no comments for ReleaseTrackerRow in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToTranslationSellingRateSet(GithubImport.BPIWebService.BPI.Models.TranslationSellingRateSet)">
+	<summary>
+There are no comments for TranslationSellingRateSet in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToTranslationSellingRate(GithubImport.BPIWebService.BPI.Models.TranslationSellingRate)">
+	<summary>
+There are no comments for TranslationSellingRate in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToProjectType(GithubImport.BPIWebService.BPI.Models.ProjectType)">
+	<summary>
+There are no comments for ProjectType in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToCustomerInvoicingPublishedProjectLine(GithubImport.BPIWebService.BPI.Models.CustomerInvoicingPublishedProjectLine)">
+	<summary>
+There are no comments for CustomerInvoicingPublishedProjectLine in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToLocation(GithubImport.BPIWebService.BPI.Models.Location)">
+	<summary>
+There are no comments for Location in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToPersonsExternalView(GithubImport.BPIWebService.BPI.Models.PersonsExternalView)">
+	<summary>
+There are no comments for PersonsExternalView in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToArtAndMMSellingRate(GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRate)">
+	<summary>
+There are no comments for ArtAndMMSellingRate in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToArtAndMMSellingRateSet(GithubImport.BPIWebService.BPI.Models.ArtAndMMSellingRateSet)">
+	<summary>
+There are no comments for ArtAndMMSellingRateSet in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToSubtenantInvoicingInfoView(GithubImport.BPIWebService.BPI.Models.SubTenantInvoicingInfoView)">
+	<summary>
+There are no comments for SubtenantInvoicingInfoView in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToManagedServiceSellingRateSet(GithubImport.BPIWebService.BPI.Models.ManagedserviceSellingRateSet)">
+	<summary>
+There are no comments for ManagedServiceSellingRateSet in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToManagedServiceSellingRate(GithubImport.BPIWebService.BPI.Models.ManagedServiceSellingRate)">
+	<summary>
+There are no comments for ManagedServiceSellingRate in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToInvoicingPeriod(GithubImport.BPIWebService.InvoicingPeriod)">
+	<summary>
+There are no comments for InvoicingPeriod in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToHoliday(GithubImport.BPIWebService.BPI.Models.Holiday)">
+	<summary>
+There are no comments for Holiday in the schema.
+</summary>
+</member><member name="M:GithubImport.Default.Container.AddToSRSuggestion(GithubImport.BPIWebService.BPI.Models.SRSuggestion)">
+	<summary>
+There are no comments for SRSuggestion in the schema.
+</summary>
+</member><member name="T:GithubImport.Default.Container">
+	<summary>
+There are no comments for Container in the schema.
+</summary>
+</member><member name="P:GithubImport.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:GithubImport.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:GithubImport.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
